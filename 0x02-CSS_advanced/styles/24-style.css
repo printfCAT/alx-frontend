@@ -90,6 +90,22 @@ a:active {
     color: var(--color-primary);
 }
 
+.card-title .card-services {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
 .section {
     padding: var(--section-padding);
 }
@@ -142,22 +158,6 @@ ul.row {
     float: left;
     padding: 0.5rem;
 
-}
-
-.card-title .card-services {
-    margin: 0;
-}
-
-a .card-services {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-}
-
-a:hover .card-services {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
 }
 
 .container {
